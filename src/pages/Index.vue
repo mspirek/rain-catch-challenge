@@ -72,7 +72,7 @@ export default {
       <div class="">
         <div class="pb-2">
           <label class="block font-bold pb-1">Number To Add</label>
-          <input type="number" v-model="number" class="border border-gray-500 rounded py-1 px-2">
+          <input type="number" min="0" v-model="number" class="border border-gray-500 rounded py-1 px-2">
         </div>
         <div class="flex py-2 justify-center">
           <button class="bg-blue-500 rounded p-2 text-white mr-2" @click="addToArray">Add to Array</button>
